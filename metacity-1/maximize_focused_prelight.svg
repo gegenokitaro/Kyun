@@ -10,11 +10,11 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="30"
-   height="8"
+   height="16"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="maximize_focused_normal.svg">
+   sodipodi:docname="maximize_focused_prelight.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -33,7 +33,7 @@
      inkscape:window-width="1017"
      inkscape:window-height="576"
      inkscape:window-x="196"
-     inkscape:window-y="180"
+     inkscape:window-y="172"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
@@ -43,7 +43,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -51,13 +51,13 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-1044.3622)">
+     transform="translate(0,-1036.3622)">
     <rect
-       style="opacity:0.98999999000000005;fill:#5ab3bb;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="opacity:0.98999999;fill:#5ab3bb;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect3047"
        width="30"
        height="8"
        x="0"
-       y="1044.3622" />
+       y="1036.3622" />
   </g>
 </svg>

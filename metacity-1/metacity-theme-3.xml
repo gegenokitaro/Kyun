@@ -32,7 +32,7 @@
 	<border name="title_border" left="0" right="0" top="0" bottom="0"/>
 	<border name="button_border" left="0" right="0" top="0" bottom="0"/>
 	<distance name="button_width" value="30"/>
-	<distance name="button_height" value="7"/>
+	<distance name="button_height" value="16"/>
 </frame_geometry>
 
 <frame_geometry name="normal_unfocused" has_title="false" rounded_top_left="1" rounded_top_right="1" parent="normal">
