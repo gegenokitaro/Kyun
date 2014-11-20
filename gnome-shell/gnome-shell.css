@@ -626,6 +626,10 @@ StScrollBar StButton#vhandle:active {
 	background-color: #3ba0ab;
 }
 
+.mpris {
+	background-color: #3F6D72;
+}
+
 #clock-display:active,
 #clock-display:focus,
 #clock-display:hover .panel-button {
