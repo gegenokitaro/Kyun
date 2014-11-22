@@ -510,6 +510,7 @@ StScrollBar StButton#vhandle:active {
 	background: #fafafa;
 	font-weight: bold;
 	height: 24px;
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
 }
 
 #panel.lock-screen {
@@ -628,6 +629,12 @@ StScrollBar StButton#vhandle:active {
 
 .mpris {
 	background-color: #3F6D72;
+}
+
+.mpris:active,
+.mpris:checked,
+.mpris:focus {
+	background-color: #D95F69;
 }
 
 #clock-display:active,
