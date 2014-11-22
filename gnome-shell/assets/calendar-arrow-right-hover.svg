@@ -13,7 +13,7 @@
    height="16"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.48.5 r10040"
    sodipodi:docname="calendar-arrow-right-hover.svg">
   <defs
      id="defs4" />
@@ -25,7 +25,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="16"
-     inkscape:cx="5.333042"
+     inkscape:cx="4.239292"
      inkscape:cy="8.923121"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -35,7 +35,7 @@
      inkscape:window-width="930"
      inkscape:window-height="681"
      inkscape:window-x="181"
-     inkscape:window-y="98"
+     inkscape:window-y="67"
      inkscape:window-maximized="0">
     <inkscape:grid
        type="xygrid"
@@ -64,7 +64,7 @@
      transform="translate(0,-1036.3622)">
     <path
        sodipodi:type="star"
-       style="fill:#4b9ddb;fill-opacity:1;stroke:none;stroke-width:0.43015847000000001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       style="fill:#4bdbc9;fill-opacity:1;stroke:none;stroke-width:0.43015847000000001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
        id="path18028"
        sodipodi:sides="3"
        sodipodi:cx="84.5"
