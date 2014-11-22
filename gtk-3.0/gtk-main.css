@@ -30,7 +30,7 @@
 
 @define-color menubar_background #fff; /* Same color as window decorations */
 @define-color menubar_fg_color @theme_text_color;
-@define-color menubar_hover_background #a4323b;
+@define-color menubar_hover_background #68ABB8;
 @define-color menubar_hover_fg_color @theme_base_color;
 
 @define-color grey #f1f2fc;
@@ -58,7 +58,7 @@
 @define-color button_insensitive_background transparent;
 @define-color button_insensitive_foreground @trough_bg_alt_color;
 @define-color button_hover_border @theme_selected_bg_color;
-@define-color button_hover_foreground #a4323b;
+@define-color button_hover_foreground #68ABB8;
 
 @define-color button_active_background @button_border;
 @define-color button_active_text @theme_text_color;
