@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Mugi!!!</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<script type="text/javascript" language="javascript">
+var $=function(id) { return document.getElementById(id); };
+
+var search="http://";
+var google="https://www.google.com/#q="
+var placeholder="Google It";
+function handleKeyPress(e) {
+	var key=e.keyCode || e.which;
+	if (key==13) {
+		var sstr=$("q").value;
+		window.location=search+sstr;
+	}
+}
+</script>
+</head>
+<body>
+<div id="bokusu">
+	<img src="assets/umai2.png">
+	<h1><input type="text" id="q" value="" placeholder="kawaii nee..." onkeypress="handleKeyPress(event)" />
+</h1>
+	<h1><form method="get" action="http://www.google.com/search">
+        <input id="q" name="q" type="text" maxlength="255" value="" placeholder="google..">
+        </form><h1>
+	<h1><form action="http://www.youtube.com/results" method="get">
+	<input id="g" name="" type="text" maxlength="255" placeholder="youtube...">
+	</form><h1>
+
+</div>
+<div id="mugi">
+	<div id="footer">
+		<img src="assets/mugi.png">
+	</div>
+</div>
+</body>
+</html>
