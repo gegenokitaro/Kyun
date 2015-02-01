@@ -1,0 +1,40 @@
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+@-moz-document url(chrome://browser/content/browser.xul) {
+    .tabs-newtab-button, .tab-close-button, .tab-close, .tab-throbber, .tab-icon-image, .tab-background-start, .tab-background-end { display: none !important; }
+    .tabbrowser-tab *, .tabs-newtab-button * {
+        background: none !important; list-style-image: none !important;
+       padding: 0 0 0 0 !important; -moz-appearance: none !important;
+    }
+    .tabbrowser-tab[selected="true"] .tab-stack {
+        border-radius: 0 !important; position: relative !important;
+        background-color: #659696!important;
+        color: #ffffff!important;
+    }
+   
+    
+    .tabbrowser-tab label { padding-left: 5px!important;}
+    #TabsToolbar::before { display: none !important;}
+    #TabsToolbar::after { display: none !important; }
+    #navigator-toolbox::after { height: 0px !important;}
+    window, browser, #navigator-toolbox {-moz-appearance: none !important;}
+     #TabsToolbar, #tabbrowser-tabs{
+        -moz-appearance: none !important;
+    }
+    #tabbrowser-tabs{
+        margin-left: -14px !important;
+    }
+    .tabbrowser-tab::after, .tabbrowser-tab::before{
+        background-image: none !important;
+    }
+    #urlbar-go-button, #urlbar-container dropmarker, #identity-box, #notification-popup-box {
+       display: none;
+    }
+    #urlbar, .searchbar-textbox {
+        border:none!important;
+        border-width:0!important;
+        background-color: #dddddd!important;
+    }
+    #nav-bar{
+        display: none !important;
+    }
+}
